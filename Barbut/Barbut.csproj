@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net6.0-windows\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net6.0-windows\Barbut.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0-windows\Barbut.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0-windows\Barbut.deps.json" />
+    <Content Include="bin\Debug\net6.0-windows\Barbut.runtimeconfig.json" />
+    <Content Include="obj\Barbut.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\net6.0-windows\Barbut.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net6.0-windows\Barbut.designer.deps.json" />
+    <Content Include="obj\Debug\net6.0-windows\Barbut.designer.runtimeconfig.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Barbut.dll" />
+    <None Include="bin\Debug\net6.0-windows\Barbut.exe" />
+    <None Include="bin\Debug\net6.0-windows\Barbut.pdb" />
+    <None Include="obj\Barbut.csproj.nuget.g.props" />
+    <None Include="obj\Barbut.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\net6.0-windows\apphost.exe" />
+    <None Include="obj\Debug\net6.0-windows\Barbut.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0-windows\Barbut.assets.cache" />
+    <None Include="obj\Debug\net6.0-windows\Barbut.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0-windows\Barbut.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net6.0-windows\Barbut.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net6.0-windows\Barbut.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\net6.0-windows\Barbut.dll" />
+    <None Include="obj\Debug\net6.0-windows\Barbut.Form1.resources" />
+    <None Include="obj\Debug\net6.0-windows\Barbut.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net6.0-windows\Barbut.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net6.0-windows\Barbut.pdb" />
+    <None Include="obj\Debug\net6.0-windows\refint\Barbut.dll" />
+    <None Include="obj\Debug\net6.0-windows\ref\Barbut.dll" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
